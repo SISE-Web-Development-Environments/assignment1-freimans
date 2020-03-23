@@ -1,193 +1,145 @@
 <!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-<body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="menu">
+			<li class="stickybar"><a href="#about">About Me</a></li>
+			<li class="stickybar"><a href="#photos">My Photos</a></li>
+			<li class="stickybar"><a href="#playlist">My Playlist</a></li>
+			<li class="stickybar"><a href="#like">Like</a></li>
+			<li class="stickybar"><a href="#qrcoder">QR code</a></li>
+			<li class="stickybar"><a href="#spa">Q&A</a></li></li>
+			<li class="stickybar"><a href="#contact">Contact Me</a></li>
+		</div>
 		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
-
-
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
+		<section id="about" class="section">
+			<br/>
+			<br/>
+			<br/>
+			<h1 align="center"> About Me </h1>
+			<p> My name is Shahar Freiman, I'm 27 years old and originally from Netanya. I am a third year student in the Information Systems Engeneering department in Ben Gurion University. </br>My hobbies are traveling the world, seeing and meeting new people. My expectation from this course are to understand the web programming enviroments and to aquire as much useful information as i can. <p>
+			<br/>
+		</section>
+		
+		<section id="photos" class="section">
+			<h1 align="center"> My Photos </h1>
+			<img width="24.5%" alt="PICTURE1" src="pic1.jpg">
+			<img width="24.5%" alt="PICTURE5" src="pic2.jpg">
+			<img width="24.5%" alt="PICTURE3" src="pic3.jpg">
+			<img width="24.5%" alt="PICTURE6" src="pic4.jpg">
+			<!--add if you on picture make her big...  style="transform: rotate(270deg);" -->
+			</br>
+		</section>
+		
+		<section id="playlist" class="section">
+			<h1 align="center"> My Playlist </h1>
+			<p align="center">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ideoseries?list=PLPJIGAnXNYJ4BpHUzzL71GyAh3ucOU95e" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>
+			<br/>
+			</section>
+			
+		<section id="like" class="section">
+			<h1 align="center"> Wouldn't you give me a small like? </h1>
+			<br/>
+			<br/>
+			<p align="center">
+			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffreimans.github.io%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId=72301599323" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			</p>
+			<br/>
+		</section>
+		
+		<section id="qrcoder" class="section">
+			<h1 align="center"> Come and Visit! </h1>
+			<p align="center">
+				<img src=QR.png width=300 height=300 />
+			</p>
+			<br/>
+		</section>
+		
+		<section id="spa" class="section">
+			<h1 align="center"> Q&A </h1>
+			<ol type="A">
+				<li id="q1">
+					<h3> What is the three main diffrences between web1,web2 and web3 ?</h3>
+					<ol>
+						<li id="q1p1">
+							Unlike web1, in web2 and web 3 you can use crawlers to go over the web.
+						</li>
+						<li id="q1p2">
+							While searching, in web1 you can only search for a certain url. in web2, you can use search engines to search the web with a specific query. In web3, the search is still happening with the help of the search engines, but, the search itself is much more progressive and using semantic search on your query.
+						</li>
+						<li id="q1p3">
+							In web1, the pages are static, not as in web2 and web3, where the pages are dynamic, and can change often
+						</li>
+					</ol>
+				</li>
+				<li id="q2">
+					<h3> How is the search of the query "Medicine Side Effects" looks in web1, web2 and web 3?</h3>
+					<ul>
+						<li id="q2p1">
+							Web1: No crawlers in web1, so you had to put as an input a url of a website to search in
+						</li>
+						<li id="q2p2">
+							Web2: The user will use search engines to search for the query he want to search, than he will get a list of links to websites containing words from his query
+						</li>
+						<li id="q2p3">
+							Web3: Same as web2, but the search can get as results link to a webpage (or specific part of it) that has a good realtion to the query asked 
+						</li>
+					</ul>
+				</li>
+			</ol>
+			<br/>
+		</section>
+		
+		<section id="contact" class="section">
+			<h1 align="center"> Contact Me </h1>
+			<form action="mailto:freimans@post.bgu.ac.il" method="post" enctype="text/plain">
+				<p align="center">
+					<label for="Name">Email:</label>
+					<input name="Name" required="" type="text">
+				</p>
+				<p align="center">
+					<label for="Subject">Subject:</label>
+					<input name="Subject" required="" type="text">
+				</p>
+				<p align="center">
+					<label for="Text">Message:</label>
+					<textarea name="Text" required="" rows="3" cols="20"></textarea>
+				</p>
+				<p align="center">
+				<input type="radio" name="radioButton" checked="">&#128540;
+				<input type="radio" name="radioButton">&#128512;
+				<input type="radio" name="radioButton">&#128513;
+				<input type="radio" name="radioButton">&#128514;
+				<input type="radio" name="radioButton">&#128515;
+				<input type="radio" name="radioButton">&#128516;
+				<input type="radio" name="radioButton">&#128517;
+				</p>
+				</br>
+				<p align="center">
+				<input type="submit" value="submit">
+				<input type="reset" value="reset">
+				</p>
+			</form>
+			<br/>
+		</section>
+		
+		
+		<script type="text/javascript">
+		$(function(){
+		$("#nav a").click(function(e){
+			e.preventDefault();
+			$('html,body').scrollTo(this.hash,this.hash); 
+		});
+		});
+		</script>
+		<script type="text/javascript">
+		$(document).scroll(function() {
+			$('#menu').toggle($(this).scrollTop()>1000)
+		});​
+		</script>
+	</body>
 </html>
